@@ -1,0 +1,35 @@
+.hero__inner-img {
+  position: relative;
+  z-index: -2;
+}
+
+.hero__bg-img {
+  filter: grayscale(100%);
+  position: absolute;
+  width: 100%;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 749px;
+}
+
+.hero__text-section {
+  width: 52%;
+  margin-bottom: 175px;
+  /*?*/
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.1;
+  margin-bottom: 9px;
+}
+
+.subtitle {
+  font-size: 21px;
+  margin-bottom: 70px;
+}

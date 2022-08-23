@@ -1,0 +1,29 @@
+.top-line__img {
+  background: url(../../img/games/bg.png) center center no-repeat;
+  filter: grayscale(100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.top-line {
+  min-height: 412px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+  position: relative;
+}
+
+.top-line__container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.top-line__header {
+  padding-top: 28px;
+}

@@ -100,12 +100,13 @@
 .triangle {
   position: absolute;
   border: 20px solid transparent;
-  width: 0;height: 0;
+  width: 0;
+  height: 0;
   border-bottom-color: #EDEDED;
   border-top-color: 0px;
   margin-top: -35%;
   left: 60%;
-  
+
 }
 
 .dropdown__list {
@@ -114,12 +115,12 @@
 }
 
 .dropdown__item1 {
-  font-weight: 700px;
+  font-weight: 700;
   margin-bottom: 2px;
 }
 
 .dropdown__item2 {
-  font-weight: 600px;
+  font-weight: 600;
   text-align: left;
 }
 

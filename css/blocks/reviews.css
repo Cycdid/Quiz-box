@@ -32,6 +32,7 @@
 .review__link:hover {
 	text-decoration-line: underline;
 	color: #2E77A4;
+	transition-duration: 0.3s;
 }
 
 .review__link:after {

@@ -41,7 +41,7 @@
 	margin-right: 7px;
 }
 
-.form__input: :last-child {
+.form__input::last-child {
 	margin-right: 0;
 }
 
@@ -57,7 +57,7 @@
 	cursor: pointer;
 }
 
-.controls__checkbox:checked~.controls__tag {
+.controls__checkbox:checked ~ .controls__tag {
 	background: #B9EAE4;
 }
 
@@ -74,6 +74,26 @@
 	margin-right: 20px;
 }
 
-.form__ntn:last-child {
+.form__btn:last-child {
 	margin-right: 0;
+}
+
+.form--submit {
+  background: #8F00FF;
+  color: #fff;
+}
+
+.form--submit:hover {
+  background: #741BBA;
+}
+
+.form--reset {
+  background: #8E8E8E;
+  color: #fff;
+  border: #fff;
+}
+
+.form--reset:hover {
+	background: #000;
+	border: none;
 }

@@ -25,11 +25,9 @@ button {
 }
 
 .btn,
-.btn--padding,
-.btn--brd, 
-.btn--none,
-.btn--reset,
-.btn--bg {
+.btn__home,
+.form--reset,
+.form--submit {
   background: #fff;
   color: #8F00FF;
   border: 1px solid #8F00FF;
@@ -42,6 +40,32 @@ button {
   display: inline-block;
   position: relative;
   transition-duration: 0.3s;
+}
+
+.btn:hover {
+  background: #8F00FF;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btn__home {
+  border-radius: 5px;
+  padding: 13px 59px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.btn__home--1 {
+  background: #8F00FF;
+  color: #fff;
+  box-shadow: 4px 6px 0 #9A9A9A;
+  transition-duration: s;
+}
+
+.btn__home--1:hover {
+  top: 3px;
+  box-shadow: 2px 3px 0 #9A9A9A;
+  background: #9A9A9A;
 }
 
 .btn--padding {
@@ -58,37 +82,10 @@ button {
 .btn--bg:hover {
   background: #741BBA;
 }
+
 .btn--brd:hover {
   background: #fff;
   color: #8F00FF;
-}
-
-.btn:hover {
-  background: #8F00FF;
-  border-radius: 5px;
-  color: #fff;
-}
-
-.btn--reset {
-  background: #8E8E8E;
-  color: #fff;
-  border: #fff;
-}
-
-.btn--reset:hover {
-	background: #000;
-	border: none;
-}
-
-.btn--none {
-padding: 10px 25px;
-background: #8F00FF;
-color: #fff;
-width: 168px;
-height: 55px;
-text-align: center;
-display: block;
-line-height: 35px;
 }
 
 .title {
@@ -101,15 +98,16 @@ line-height: 35px;
   margin-bottom: 78px;
 }
 
-.pagination, .pagination__list {
+.pagination,
+.pagination__list {
   display: flex;
 }
- 
+
 .pagination {
   align-items: center;
   justify-content: center;
   margin-top: 53px;
-  
+
 }
 
 .pagination__pages {
@@ -125,6 +123,7 @@ line-height: 35px;
   font-weight: bold;
   z-index: 0;
 }
+
 .pagination__item:last-child {
   margin-right: 0;
 }
@@ -148,6 +147,7 @@ line-height: 35px;
   opacity: 0;
   transition: 0.3s all;
 }
+
 .pagination__link:hover::before {
   opacity: 1;
 }
@@ -205,24 +205,24 @@ line-height: 35px;
 }
 
 .avatar {
-	width: 139px;
-	height: 139px;
-	border-radius: 50%;
-	overflow: hidden;
-	margin-right: 23px;
-	margin-bottom: 28px;
+  width: 139px;
+  height: 139px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 23px;
+  margin-bottom: 28px;
 }
 
 .tag {
-	display: inline-flex;
-	align-items: flex-start;
-	font-size: 13px;
-	color: #303030;
-	padding: 8px 16px;
-	background: #E7E7E7;
-	border-radius: 50px;
+  display: inline-flex;
+  align-items: flex-start;
+  font-size: 13px;
+  color: #303030;
+  padding: 8px 16px;
+  background: #E7E7E7;
+  border-radius: 50px;
 }
 
 .tag--bg--light {
-	background: #B9EAE4;
+  background: #B9EAE4;
 }

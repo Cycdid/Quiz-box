@@ -1,0 +1,67 @@
+.newsoftheweek__list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 125px;
+}
+
+.newsoftheweek__item {
+  width: calc(100% / 3 - 16px);
+}
+
+.newsoftheweek__item:last-child {
+  margin-right: 0;
+}
+
+.newsoftheweek {
+  min-height: 449px;
+  border-radius: 4px;
+  background: #fff;
+  color: #303030;
+  overflow: hidden;
+}
+
+.newsoftheweek__header {
+  min-height: 144px;
+}
+
+.newsoftheweek__pic {
+  width: 100%;
+}
+
+.newsoftheweek__content {
+  padding: 26px 22px;
+}
+
+.newsoftheweek__title {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 23px;
+  color: black;
+}
+
+.newsoftheweek__sublist {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.sub__item {
+  display: flex;
+  color: #666666;
+  margin-right: 50px;
+}
+
+.icon,
+.vector {
+  margin-right: 10px;
+}
+
+.sub__text {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.newsoftheweek__desc {
+  margin-bottom: 25px;
+  font-size: 14px;
+}

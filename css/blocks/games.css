@@ -1,0 +1,36 @@
+.maincontent {
+  background: #FFF;
+  color: #303030;
+  padding: 100px 0;
+}
+
+.games {
+  margin-bottom: 65px;
+}
+
+.game {
+  display: flex;
+}
+
+.games__item {
+  padding-bottom: 45px;
+}
+
+.games__item:last-child {
+  padding-bottom: 0;
+}
+
+.game__boximg {
+  width: 38%;
+  margin-right: 5%;
+}
+
+.game__boxcontent {
+  flex: 1;
+}
+
+
+.game__desc {
+  line-height: 1.7;
+  margin-bottom: 50px;
+}

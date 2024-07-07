@@ -1,0 +1,26 @@
+.inner-section {
+  background: #F4F5F5;
+  padding: 67px 0;
+}
+
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.partners__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 100px;
+  filter: grayscale(100%);
+}
+
+.partners__link:hover {
+  filter: grayscale(0);
+  transition-duration: 0.3s;
+}
